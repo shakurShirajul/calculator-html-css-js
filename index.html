@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" onclick="presss()">
+        <div class="type">
+            <h1 style="color: white; text-align: center; padding-top: 10px;">CASIO CALCULATOR</h1>
+        </div>
+        <div class="dis-clr">
+            <input type="text" placeholder="" id="scrn" >
+            <button class="clr side" onclick="clr()">C</button>
+        </div>
+
+        <div class="div-key">
+            <div class="number"><button class="num-key" onclick="display('1')">1</button></div>
+            <div class="number"><button class="num-key" onclick="display('2')">2</button></div>
+            <div class="number"><button class="num-key" onclick="display('3')">3</button></div>
+            <div class="number"><button class="num-key side" onclick="display('/')">/</button></div>
+        </div>
+        <div class="div-key">
+            <div class="number"><button class="num-key" onclick="display('4')">4</button></div>
+            <div class="number"><button class="num-key" onclick="display('5')">5</button></div>
+            <div class="number"><button class="num-key" onclick="display('6')">6</button></div>
+            <div class="number"><button class="num-key side" onclick="display('-')">-</button></div>
+        </div>
+        <div class="div-key">
+            <div class="number"><button class="num-key" onclick="display('7')">7</button></div>
+            <div class="number"><button class="num-key" onclick="display('8')">8</button></div>
+            <div class="number"><button class="num-key" onclick="display('9')">9</button></div>
+            <div class="number"><button class="num-key side" onclick="display('+')">+</button></div>
+        </div>
+        <div class="div-key">
+            <div class="number"><button class="num-key" onclick="display('.')">.</button></div>
+            <div class="number"><button class="num-key" onclick="display('0')">0</button></div>
+            <div class="number"><button class="num-key" onclick="calculate()">=</button></div>
+            <div class="number"><button class="num-key side" onclick="display('*')">*</button></div>
+        </div>
+        <div class="type">
+            <h1 style="color: white; text-align: center; padding: 10px; font-size: 15px;">Developed By Shakur</h1>
+        </div>
+    </div>
+
+    <!-- <h1 id="h1" style="background-color: blueviolet; height: 100px;"></h1> -->
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

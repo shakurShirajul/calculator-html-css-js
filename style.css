@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dis-clr{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clr{
+    background-color: #65268f;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    font-size: 40px;
+    border: 0px;
+}
+input{
+    width: 340px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0px;
+    color: #fc0067;
+    font-size: 30px;
+    padding: 0 10px;
+    text-align: right;
+      
+}
+
+.main{
+    background-color: #191b28;
+    /* height: 450px; */
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.div-key{
+    display: flex;
+    justify-content: space-evenly;
+}
+.num-key{
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #65268f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    border: 0px;
+}
+.side{
+    background-color: #fc0067;
+    width: 80px;
+}
+.num-key:hover{
+    border: 2px solid #fc0067;
+}
+.side:hover{
+    border: 2px solid #65268f;
+}
+.num-key:click{
+    border: 2px solid white;
+}
