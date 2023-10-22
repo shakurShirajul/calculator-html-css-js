@@ -73,10 +73,16 @@ input{
 }
 @media only screen and (max-width: 600px) {
     .main{
-        width: 400px;
+        width: 99%;
     }
     .div-key{
-        
+
+    }
+    input{
+        width: 60%;
+    }
+    .num-key{
+        width: 5rem;
     }
     /* .num-key{
         width: 100%;
