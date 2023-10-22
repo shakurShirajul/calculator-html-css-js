@@ -71,3 +71,14 @@ input{
 .num-key:click{
     border: 2px solid white;
 }
+@media only screen and (max-width: 600px) {
+    .main{
+        width: 400px;
+    }
+    .div-key{
+        
+    }
+    /* .num-key{
+        width: 100%;
+    }     */
+}
