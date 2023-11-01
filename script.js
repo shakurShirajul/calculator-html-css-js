@@ -32,4 +32,7 @@ window.addEventListener('keydown',(e)=>{
     else if(e.key == '='){
         calculate();
     }
+    else if(e.key == 'Escape'){
+        document.getElementById("scrn").value = "";
+    }
 })
